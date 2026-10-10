@@ -1,0 +1,25 @@
+[project]
+name = "omniclaims-lakehouse-multimodal"
+version = "0.1.0"
+description = "OmniClaim Life Lakehouse: Multi-Modal Life Insurance Claims Adjudication on Google Cloud (BigLake Apache Iceberg, Object Tables, BigQuery ML & Vertex AI)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "db-dtypes>=1.3.0",
+    "fpdf2>=2.8.0",
+    "google-cloud-bigquery>=3.25.0",
+    "google-cloud-storage>=2.18.0",
+    "google-cloud-texttospeech>=2.17.0",
+    "numpy>=1.26.0",
+    "pandas>=2.2.0",
+    "pillow>=10.4.0",
+    "pyarrow>=17.0.0",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.0",
+    "streamlit>=1.38.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.0",
+]
